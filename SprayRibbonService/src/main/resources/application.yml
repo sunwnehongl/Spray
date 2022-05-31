@@ -1,0 +1,11 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: SPRA-RIBBOM—SERVICE
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
